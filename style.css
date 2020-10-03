@@ -1,44 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   margin:0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .dispo-logo {
-  padding-top: 30px ;
+  padding-top: 10px;
+
 }
-
-
-
-
 .site-header {
-    background: #6C63FF;
-    color: #fff;
+ background: #6C63FF;
+ color: #fff;
  text-align: center;
- 
  display:block;
  margin: 0px 0px 0em 0%;
+ padding:0;
+ border-bottom: 1px solid #5F56EC;
+
+}
+
+
+ .p-mot { 
+  color: #6C63FF;
+
+ }
+
+ .p-mot {
+color: #6C63FF;
+}
+
+.service-mot {
+ color: #6C63FF; 
+}
+
+h1 {
+  
+  text-align: center;
+  height: 80px;
+  font-size: 28px;   
+}
+
+.first-title{
+  margin-left: 10px;
+}
+
+article {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  
  
 }
+ 
+.site-link:hover {
+  background-color: #150ABC;
+}
 
+.site-link { 
+background: #6C63FF;
+display:block;
+padding: 10px;
+display:block; 
+color: #fff;
+text-decoration: none;
+}
+
+
+
+.clic-link 
+{
+background: #6C63FF;
+color: #fff;
+border-radius: 30px;
+display: inline-block;
+padding: 15px;
+text-decoration: none;
+text-align: center;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+.btn-center{
+  text-align: center;
+}
+
+.aside {
+padding-bottom: 40px;
+}
+
+.para-prix {
+text-align: center;
+
+}
+.para-prixx {
+text-align: center;
+}
+.link1
+{
+text-decoration: none;
+display:block;
+color: #fff;
+text-align: left;
+margin-left: 10px;
+line-height: 25px;
+}
+
+
+.contaner-header {
+display: flex;
+justify-content: space-between;
+background-color: #6C63FF;
+position:relative;
+
+}
 
 .color-site{ 
-  text-align: center;
+  font-weight: bolder;
+  font-size: 32px ;
+text-align: center;
 margin-bottom: 0%;
-}
-.site-link { 
+margin-left: 20px;
+margin-top:10px;
 
-    background: #6C63FF;
+}
+
+.site-link { 
+  background: #6C63FF;
   display:block;
-  
-  padding: 10px;
-  display:block; 
   color: #fff;
   text-decoration: none;
+  margin-top: 0px;
+  padding: 10px;
+  border-bottom: 1px  solid #1F14CC ;
+
 }
 
-.site-link-active {
-  background: #150ABC;
-
-}
 
 .p-mot { 
   color: #6C63FF;
@@ -63,32 +163,10 @@ h1 {
 text-align:center;
 }
 
-.center { 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.img-center { 
+  width: 100%;
   }
 
-
-
-.clic-link 
-{
-  background: #6C63FF;
-  color: #fff;
-  border-radius: 30px;
- display: inline-block;
-  padding: 15px;
-  text-decoration: none;
-  text-align: center;
-  margin-left: 90px;
-  padding-left: 30px;
-  padding-right: 30px;
-
-}
-.mp{
-  margin-left: 140px;
-}
 
 
   .para-1 
@@ -215,7 +293,7 @@ border-bottom-right-radius:12px;
 
 
 .contaner-header {
-  padding: 8px;
+  padding: 0;
   display: flex;
   background-color: #6C63FF;
 justify-content: space-between;
@@ -225,14 +303,14 @@ justify-content: space-between;
 .logo-right {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   
 }
 .fondairrocket{
 height: 400px;
 background-size: cover;
 
-background-image: url(image-fond/pexels.png);
+background-image: url("image-fond/pexels.png");
 display: flex;
 background-position: center ;
 }
@@ -297,5 +375,28 @@ background-position: center ;
   color: #ffffff;
   display: inline-block;
  padding: 10px;
+text-align: center;
+    background-position: top;
+    position: absolute;
+    top: 57%;
+    left: 40%;
+    right:40%;
+}
 
+.options-header{
+  margin-bottom: 20px;
+}
+
+.avatar-rouge{
+
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+
+.text-descrption-mars{
+  font-size: 16px;
+    margin-top: 0px;
+    text-align: left;
 }
